@@ -11,6 +11,11 @@
 - Firebase setup
 - deploying our app to production
 - Create Signup User Account
+- Implement Sign In user API
+- Created Redux Store with userSlice
+- Implemented the sign out features
+- Update Profile
+- Fetch API from TMDB movies
 
 # Features
 
@@ -41,3 +46,8 @@
 
 - When you submit the sign-in form, it will refresh the page. So, in the form, add onSubmit={(e) => e.preventDefault()} => i dont want to submit the form.
 - useRef is used for reference a field or tag over email & password
+- install redux library => i am going install two libraries
+  - npm i D @reduxjs/toolkit
+  - npm i react-redux
+- create a new file an utils=> appStore =>import { configureStore } from "@reduxjs/toolkit";
+- create a new file another file in utils=> userSlice.js => import { createSlice } from "@reduxjs/toolkit";
